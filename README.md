@@ -1,7 +1,4 @@
-# Mini-Shell
-The program is a simulation of a simple shell in C, under the Linux operating system.
-
-MINI AHELL
+#MINI AHELL
 
 Authored by Simcha Corcos
 
@@ -30,9 +27,9 @@ two main functions:
 
 ==Program Files==
 
-ex2a.c - contain the main of first part.
+part1.c - contain the main of first part.
 
-ex2b.c - contain the main of second part.
+part2.c - contain the main of second part.
 
 file.txt -to read history and !(num)
 
@@ -40,13 +37,13 @@ file.txt -to read history and !(num)
 ==How to compile?==
 
 Part #1:
-compile: gcc ex2a.c -o ex2a
-run: ./ex2a
+compile: gcc part1.c -o part1
+run: ./part1
 
 
 Part #2:
-compile: gcc ex2b.c -o ex2b
-run: ./ex2b
+compile: gcc part2.c -o part2
+run: ./part2
 
 
 ==Input:==
