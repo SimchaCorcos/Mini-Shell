@@ -71,7 +71,6 @@ int main()
         if(pid == -1)//if failed - exit 1 and message for user
         {
             perror("fork failed\n");
-//            freeArray(array);
             exit(1);
         }
         if(pid == 0)//son
@@ -84,7 +83,6 @@ int main()
         }
         //parent
         wait(&status);//Wait for the son's graduation status to know if he succeeded or failed
-//            freeArray(array);
         if(WEXITSTATUS(status)==0)//if succeeded count commands and words in command
         {
             numCommands++;
