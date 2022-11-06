@@ -81,7 +81,6 @@ int main()
         {  
             command2 = (char*)malloc(sizeof(char)*strlen(buff)+1);
             checkAlloc(command2);
-//            command2[strlen(buff)-1] = '\0';
             strcpy(command2, buff);
             pid_1 = fork();
             array = buildArray(command2);//cut the string by " " - private method
