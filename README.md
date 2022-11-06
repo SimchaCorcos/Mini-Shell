@@ -2,8 +2,10 @@
 The program is a simulation of a simple shell in C, under the Linux operating system.
 
 MINI AHELL
+
 Authored by Simcha Corcos
-212328199
+
+id: 212328199
 
 
 ==Description==
