@@ -27,9 +27,9 @@ two main functions:
 
 ==Program Files==
 
-part1.c - contain the main of first part.
+miniShell1.c - contain the main of first part.
 
-part2.c - contain the main of second part.
+miniShell2.c - contain the main of second part.
 
 file.txt -to read history and !(num)
 
@@ -37,13 +37,13 @@ file.txt -to read history and !(num)
 ==How to compile?==
 
 Part #1:
-compile: gcc part1.c -o part1
-run: ./part1
+compile: gcc miniShell1.c -o miniShell1
+run: ./miniShell1
 
 
 Part #2:
-compile: gcc part2.c -o part2
-run: ./part2
+compile: gcc miniShell2.c -o miniShell2
+run: ./miniShell2
 
 
 ==Input:==
